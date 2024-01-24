@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+.container h1{
+    text-align: left;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+.container h2{
+    text-align: left;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: aliceblue;
+}
+
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #161616;
+    padding: 16px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+button:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.success-message {
+    background-color: rgb(83, 62, 207);
+    padding: 16px;
+    color: #fff;
+    display: none;
+    text-align: center;
+}
+
+.error-message {
+    font-size: 16px;
+    padding: 16px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+    text-align: center;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
