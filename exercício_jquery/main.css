@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(4, 60, 65);
+}
+
+.container{
+    background-color: rgb(243, 250, 255);
+    max-width: 1440px;
+    width: 50%;
+    margin: 100px auto;
+    padding: 16px 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    max-width: 360px;
+}
+
+form{
+    padding: 16px;
+    cursor: pointer;
+    font-weight: 700;
+
+
+}
+
+form .itemTxt{
+    background-color: rgb(197, 240, 234);
+    border: none;
+    padding: 8px;
+    width: auto;
+}
+
+form button{
+    background-color: rgb(22, 235, 188);
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#botao-cancelar{
+    background-color: rgb(238, 55, 101);
+}
+
+
+.container ul li{
+
+    padding: 5px 16px;
+    margin-bottom: 16px;
+    font-size: 30px;
+    list-style: circle;
+    font-weight: 700;
+    list-style: none;
+    text-align: center;
+
+}
