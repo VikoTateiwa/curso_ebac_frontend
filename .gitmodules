@@ -1,0 +1,6 @@
+[submodule "curso_ebac_frontend"]
+	path = curso_ebac_frontend
+	url = https://github.com/VikoTateiwa/curso_ebac_frontend
+[submodule "exercicio_plugins_jquery"]
+	path = exercicio_plugins_jquery
+	url = https://github.com/VikoTateiwa/curso_ebac_frontend/tree/exercicio_plugins_jquery
